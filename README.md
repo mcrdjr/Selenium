@@ -1,7 +1,7 @@
 # Selenium
 Selenium Code to populate Leaderboard
 
-I now all of this isn't pretty but it's my first stab at creating node apps
+I know all of this isn't pretty but it's my first stab at creating node apps
 Some day this will be running on Heroku
 Right now you will need to manually run node init.js to populate Salesforce
 
@@ -28,7 +28,7 @@ If newer version then change in package.json to that version
 and run npm update to update the node modules
 
 Please email me any comments, critiques, etc.
-I really need help with uploading this mess to Heroku so I don;t have to manually run the job -
+I really need help with uploading this mess to Heroku so I don't have to manually run the job -
 
 
 
