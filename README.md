@@ -27,8 +27,8 @@ If you get this message:
 SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version XX
 
 That is when Chrome gets updated - it may break this program with that message
-
-Do this: Check chromedriver -> npm outdated
+Check for newer chromedriver
+Do this: -> npm outdated
 
 If newer version then change in package.json to that version
 and run npm update to update the node modules
