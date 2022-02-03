@@ -1,7 +1,7 @@
 # Selenium
 Selenium Code to populate Leaderboard
 
-I know all of this isn't pretty but it's my first stab at creating node apps and jsforce
+I know all of this isn't pretty but it's my first stab at creating node apps and jsforce.
 Some day this will be running on Heroku
 Right now you will need to manually run node init.js to populate Salesforce
 
