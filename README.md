@@ -5,6 +5,7 @@ I know all of this isn't pretty but it's my first stab at creating node apps and
 Some day this will be running on Heroku
 Right now you will need to manually run node init.js to populate Salesforce
 
+All of this assumes you have the custom object from the Leaderboard repository -
 
 To get app up and running -
 
