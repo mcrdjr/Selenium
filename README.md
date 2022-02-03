@@ -7,17 +7,17 @@ Right now you will need to manually run node init.js to populate Salesforce
 
 All of this assumes you have the custom object from the Leaderboard repository -
 
-To get app up and running -
+To get app up and running
 
 Download code and unzip
 Open VS Code and open the folder where you download zip
 Update your Salesforce username, password and secret in .env
 
-Run npm update to get all node modules -
+Run npm update to get all node modules
 
-Should be good to go.- 
+Should be good to go.
 
-Run -
+Run 
 node init.js 
 
 If you get this message:
