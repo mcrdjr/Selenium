@@ -25,7 +25,7 @@ conn.login(process.env.LOGIN, process.env.PASSWORD + process.env.KEY, function(e
 //(Badges__c >= 0 and Badges__c <= 0)
 // (Badges__c >= 0 and Badges__c <= 0) or userid__c = \'maverick\' 
 var query = conn.query('SELECT id, lastmodifieddate, name, userid__c, BadgesT__c, Badges__c, TotalPointsT__c, TotalPoints__c, Trails__c, SuperBadges__c, Certs__c, UrlStatus__c , profile__c FROM ' +
-' LeaderBoard__c WHERE ((Badges__c >= 0 and Badges__c <= 0) or userid__c = \'maverick\' ) order by lastmodifieddate, Badges__c limit 20 ')
+' LeaderBoard__c WHERE ((Badges__c >= 0 and Badges__c <= 2000) or userid__c = \'maverick\' ) order by lastmodifieddate, Badges__c limit 20 ')
   .on("record", function(record) {
     records.push(record);
   })
