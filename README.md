@@ -37,6 +37,11 @@ Please email me any comments, critiques, etc.
 
 I really need help with uploading this mess to Heroku so I don't have to manually run the job -
 
+Note: 2022-04-26
+Uploaded certs.js
+This file when run will read and update Certifications in Salesforce Object
+node certs.js xxxxx - where xxxxx is the vanityname
+
 
 
 
